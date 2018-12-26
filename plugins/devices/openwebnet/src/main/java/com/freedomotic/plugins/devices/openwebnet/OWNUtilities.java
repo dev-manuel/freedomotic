@@ -232,19 +232,19 @@ public class OWNUtilities {
         String dayName = null;
         switch (new Integer(Integer.parseInt(dayNumber))) {
             case (0):
-                dayNumber = "Sunday";
+                dayName = "Sunday";
             case (1):
-                dayNumber = "Monday";
+                dayName = "Monday";
             case (2):
-                dayNumber = "Tuesday";
+                dayName = "Tuesday";
             case (3):
-                dayNumber = "Wednesday";
+                dayName = "Wednesday";
             case (4):
-                dayNumber = "Thursday";
+                dayName = "Thursday";
             case (5):
-                dayNumber = "Friday";
+                dayName = "Friday";
             case (6):
-                dayNumber = "Saturday";
+                dayName = "Saturday";
         }
         return (dayName);
     }
